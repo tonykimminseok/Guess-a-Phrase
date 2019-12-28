@@ -111,6 +111,7 @@ function checkWin() {
 	const totalLetters = document.querySelectorAll('.letter');
 	const shownLetters = document.querySelectorAll('.show');
 	const h3 = document.createElement('h3');
+	h3.style.fontSize = "2.5em";
 
 	// 	if # of letters with class "show" === # of letters with class "letter"
 	if (shownLetters.length === totalLetters.length) {
@@ -142,6 +143,7 @@ function removeShowClass() {
 
 function showCorrectPhrase() {
 	const h4 = document.createElement('h4');
+	h4.style.fontSize = "1.5em";
 	h4.textContent = 'The correct phrase was: ' + phraseUL.textContent.toUpperCase();
 	overlay.appendChild(h4);
 }
