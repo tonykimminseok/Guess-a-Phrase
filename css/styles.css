@@ -155,6 +155,7 @@ button:hover {
 
 .btn__reset:hover {
   opacity: 0.8;
+  transform: scale(1.2);
 }
 
 /* Overlay */
@@ -194,4 +195,43 @@ button:hover {
 
 .lose a {
   color: var(--color-lose);
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .header {
+    font-size: 2.3em;
+  }
+  
+  .header:hover {
+    transform: scale(1.1);
+  }
+
+  .letter {
+    width: 30px;
+  }
+
+  button {
+    padding: 1px 7px 2px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .header {
+    font-size: 4em;
+  }
+
+  .header:hover {
+    transform: scale(1.3);
+  }
+
+  .letter {
+    width: 50px;
+  }
+
+  button {
+    padding: .5rem 1rem;
+  }
+
+
 }

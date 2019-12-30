@@ -14,7 +14,12 @@ let phrases = ['heart of gold',
 			   'cool as a cucumber',
 			   'bring home the bacon',
 			   'saved by the bell',
-			   'dressed to the nines'];
+			   'dressed to the nines',
+			   'down to earth',
+			   'every cloud has a silver lining',
+			   'keep on trucking',
+			   'a piece of cake',
+			   'just do it'];
 
 startButton.addEventListener('click', () => {
 	if (startButton.textContent === 'Start Game') {
