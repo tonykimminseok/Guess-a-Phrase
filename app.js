@@ -148,7 +148,8 @@ function removeShowClass() {
 function showCorrectPhrase() {
 	const h4 = document.createElement('h4');
 	h4.style.fontSize = "1.5em";
-	h4.textContent = 'The correct phrase was: ' + phraseUL.textContent.toUpperCase();
+	h4.style.whiteSpace = "pre";
+	h4.textContent = 'The correct phrase was: \r\n' + phraseUL.textContent.toUpperCase();
 	overlay.appendChild(h4);
 }
 
