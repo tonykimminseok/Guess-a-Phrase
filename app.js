@@ -9,14 +9,13 @@ const heartArray = document.querySelectorAll('.tries img');
 const heart = document.querySelector('.tries img');
 
 let missed = 0;
-let phrases = ['heart of gold',
+let phrases = ['talk is cheap',
 			   'love is blind',
 			   'cool as a cucumber',
-			   'bring home the bacon',
-			   'saved by the bell',
-			   'dressed to the nines',
+			   'easy peasy',
+			   'kill two birds with one stone',
 			   'down to earth',
-			   'keep on trucking',
+			   'speak of the devil',
 			   'a piece of cake',
 			   'just do it'];
 
