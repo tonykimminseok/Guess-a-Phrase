@@ -16,7 +16,6 @@ let phrases = ['heart of gold',
 			   'saved by the bell',
 			   'dressed to the nines',
 			   'down to earth',
-			   'every cloud has a silver lining',
 			   'keep on trucking',
 			   'a piece of cake',
 			   'just do it'];
@@ -60,7 +59,7 @@ function addPhraseToDisplay(arr) {
 			li.className = 'letter';
 		} else {
 			li.className = '';
-			li.style.margin = '1em';
+			li.style.width = '100%';
 		}
 	}
 }

@@ -208,7 +208,10 @@ button:hover {
   }
 
   .letter {
-    width: 30px;
+    font-size: 1em;
+    width: 38px;
+    height: 38px;
+    padding: 10px 0;
   }
 
   button {
@@ -232,6 +235,4 @@ button:hover {
   button {
     padding: .5rem 1rem;
   }
-
-
 }
