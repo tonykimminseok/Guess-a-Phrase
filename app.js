@@ -36,6 +36,7 @@ function getRandomPhraseAsArray(arr) {
 	const characters = randomPhrase.split('');
 
 	// return the new array of characters
+	console.log(characters);
 	return characters;
 }
 
@@ -78,7 +79,7 @@ keyboard.addEventListener('click', (e) => {
 	// check for winner
 	checkWin();
 
-})
+});
 
 function checkLetter(letter) {
 	// get all of the elements with class "letter"
